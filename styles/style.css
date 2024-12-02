@@ -23,7 +23,7 @@ body, ul, p, h3, h4, nav, a, ul, li {
 }
 
 .header {   
-    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+    background-image: url("../images/banner-bg.jpg");
     background-position: center;
     background-size: cover;
     background-color: #000000;
@@ -104,7 +104,7 @@ a.menu-link:hover {
     word-spacing: 4px;
 }
 
-.main {
+.main__container {
     box-sizing: border-box;
     max-width: 1200px;
     height: auto;
