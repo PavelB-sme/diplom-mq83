@@ -1,8 +1,8 @@
   @font-face {
     font-family: "OpenSans";
-    src: url("/fonts/OpenSans-Regular.woff2") format(".woff2");
-    src: url("/fonts/OpenSans-Regular.woff") format("woff");
-    src: url("/fonts/OpenSans-Regular.ttf") format("ttf");
+    src: url("../fonts/OpenSans-Regular.woff2") format(".woff2");
+    src: url("../fonts/OpenSans-Regular.woff") format("woff");
+    src: url("../fonts/OpenSans-Regular.ttf") format("ttf");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -10,9 +10,9 @@
 
 @font-face {
     font-family: "OpenSans";
-    src: url("/fonts/OpenSans-Bold.woff2") format("woff2");
-    src: url("/fonts/OpenSans-Bold.woff") format("woff");
-    src: url("/fonts/OpenSans-Bold.ttf") format("ttf");
+    src: url("../fonts/OpenSans-Bold.woff2") format("woff2");
+    src: url("../fonts/OpenSans-Bold.woff") format("woff");
+    src: url("../fonts/OpenSans-Bold.ttf") format("ttf");
     font-weight: 700;
     font-display: swap;
 }
@@ -39,7 +39,7 @@ body, ul, p, h1, h2, h3, h4, nav, a, ul, li {
 }
 
 .header {   
-    background-image: url("/images/banner-bg.jpg");
+    background-image: url("../images/banner-bg.jpg");
     background-position: center;
     background-size: cover;
     background-color: #000000;
@@ -177,19 +177,19 @@ a.menu-link:hover {
 }
 
 .first-card {
-    background-image: url(/images/trend1.jpg);
+    background-image: url(../images/trend1.jpg);
 }
 
 .second-card {
-    background-image: url(/images/trend2.jpg);
+    background-image: url(../images/trend2.jpg);
 }
 
 .third-card {
-    background-image: url(/images/trend3.jpg);
+    background-image: url(../images/trend3.jpg);
 }
 
 .fourth-card {
-    background-image: url(/images/trend4.jpg);
+    background-image: url(../images/trend4.jpg);
 }
 
 .container__trends-card-contents {
@@ -738,7 +738,7 @@ a.item__tittle-link:hover {
    -webkit-appearance: none;
    -moz-appearance: none;
    appearance: none;
-   background-image: url(/svg/form-arrows.svg); 
+   background-image: url(../svg/form-arrows.svg); 
    background-repeat: no-repeat;
    background-position: right 14px center;
    background-size: 8px 15px;
@@ -766,7 +766,7 @@ a.item__tittle-link:hover {
 
 .form__popup-radio-text::before {
     content: " ";
-    background-image: url(/svg/form-empty-circle.svg);
+    background-image: url(../svg/form-empty-circle.svg);
     display: inline-block;
 	width: 17px;
 	height: 17px;
@@ -780,7 +780,7 @@ a.item__tittle-link:hover {
 }
 
 .form__popup-radio:checked ~ .form__popup-radio-text::before {
-    background-image: url(/svg/form-circle.svg);
+    background-image: url(../svg/form-circle.svg);
 }
 
 .form__popup-checkbox-label:nth-of-type(n+2) {
@@ -963,7 +963,7 @@ a.item__tittle-link:hover {
 }
 
 .footer__links-item-dribbble {
-    background-image: url(/svg/001-dribbble.svg);
+    background-image: url(../svg/001-dribbble.svg);
     display: block;
     width: 20px;
     height: 20px;
@@ -973,7 +973,7 @@ a.item__tittle-link:hover {
 }
 
 .footer__links-item-pinterest {
-    background-image: url(/svg/001-pinterest.svg);
+    background-image: url(../svg/001-pinterest.svg);
     display: block;
     width: 20px;
     height: 20px;
@@ -983,7 +983,7 @@ a.item__tittle-link:hover {
 }
 
 .footer__links-item-tumblr {
-    background-image: url(/svg/003-tumblr.svg);
+    background-image: url(../svg/003-tumblr.svg);
     display: block;
     width: 20px;
     height: 20px;
@@ -1011,7 +1011,7 @@ a.item__tittle-link:hover {
 
 @media (max-width: 1199px) {
     .header {   
-        background-image: url("/images/banner-bg-tablet.jpg");
+        background-image: url("../images/banner-bg-tablet.jpg");
     }
 
     .header__menu-list {
@@ -1133,7 +1133,7 @@ a.item__tittle-link:hover {
     }
     
     .header {   
-        background-image: url("/images/banner-mobile.jpg");
+        background-image: url("../images/banner-mobile.jpg");
     }
 
     .header__logo {
