@@ -19,7 +19,10 @@
                     </a>
                 </div>
                 <div class="container__menu">
-                    <svg class="burger-menu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" width="23px" height="20px"><line fill="none" stroke="#fff" stroke-width="5" stroke-miterlimit="10" x1="40" y1="25" x2="0" y2="25"/><line fill="none" stroke="#fff" stroke-width="5" stroke-miterlimit="10" x1="40" y1="10" x2="0" y2="10"/><line fill="none" stroke="#fff" stroke-width="5" stroke-miterlimit="10" x1="0" y1="40" x2="40" y2="40"/></svg>
+                    <button class="button-burger-menu">
+                        <svg class="burger-menu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" width="23px" height="20px"><line fill="none" stroke="#fff" stroke-width="5" stroke-miterlimit="10" x1="40" y1="25" x2="0" y2="25"/><line fill="none" stroke="#fff" stroke-width="5" stroke-miterlimit="10" x1="40" y1="10" x2="0" y2="10"/><line fill="none" stroke="#fff" stroke-width="5" stroke-miterlimit="10" x1="0" y1="40" x2="40" y2="40"/></svg>
+                        <span class="visually-hidden">Открыть меню</span>
+                    </button>    
                     <nav class="header__menu">
                         <ul class="header__menu-list">
                             <li class="header__menu-item">
@@ -62,37 +65,54 @@
             <div class="container__trends-cards">
                 <div class="container__trends-card first-card">
                     <div class="container__trends-card-contents">
-                        <div class="container__trends-card-links">
-                            <a href="#" class="container__trends-card-link">Lifestyle</a><a href="#" class="container__trends-card-link">Interior</a>
-                        </div>
-                        <div class="container__trends-card-content"><a class="container__trends-card-content-link" href="#">Сейчас в тренде: сад  на подоконнике
+                            <ul class="container__trends-card-links">
+                                <li>
+                                    <a href="#" class="container__trends-card-link">Lifestyle</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="container__trends-card-link">Interior</a>
+                                </li>
+                            </ul>
+                        <h3 class="container__trends-card-content"><a class="container__trends-card-content-link" href="#">Сейчас в тренде: сад  на подоконнике
                             </a>
-                        </div>
+                        </h3>
                     </div>
                     </div>
                 <div class="container__trends-card second-card">
                     <div class="container__trends-card-contents">
-                        <div class="container__trends-card-links">
-                            <a href="#" class="container__trends-card-link">food</a>
-                        </div>
-                        <div class="container__trends-card-content"><a class="container__trends-card-content-link" href="#">сыры на красивых  картинках из интернета: какие они на вкус?</a></div>
+                        <ul class="container__trends-card-links">
+                            <li>
+                                <a href="#" class="container__trends-card-link">food</a>
+                            </li>
+                        </ul>
+                        <h3 class="container__trends-card-content"><a class="container__trends-card-content-link" href="#">сыры на красивых  картинках из интернета: какие они на вкус?</a></h3>
                     </div>
                 </div>
                 <div class="container__trends-card third-card">
                     <div class="container__trends-card-contents">
-                        <div class="container__trends-card-links">
-                            <a href="#" class="container__trends-card-link">lifestyle</a><a href="#" class="container__trends-card-link">travel</a>
-                        </div>
-                        <div class="container__trends-card-content"><a class="container__trends-card-content-link" href="#">собираемся в первый поход в горы</a></div>
+                        <ul class="container__trends-card-links">
+                            <li>
+                                <a href="#" class="container__trends-card-link">Lifestyle</a>
+                            </li>
+                            <li>
+                                <a href="#" class="container__trends-card-link">travel</a>
+                            </li>
+                        </ul>
+                        <h3 class="container__trends-card-content"><a class="container__trends-card-content-link" href="#">собираемся в первый поход в горы</a></h3>
                     </div>
                 </div>
                 <div class="container__trends-card 
                 fourth-card">
                 <div class="container__trends-card-contents">
-                    <div class="container__trends-card-links">
-                        <a href="#" class="container__trends-card-link">food</a><a href="#" class="container__trends-card-link">health</a>
-                        </div>
-                        <div class="container__trends-card-content"><a class="container__trends-card-content-link" href="#">Сейчас в тренде: сколько витамина с в лимонах?</a></div>
+                    <ul class="container__trends-card-links">
+                        <li>
+                            <a href="#" class="container__trends-card-link">food</a>
+                        </li>
+                        <li>
+                            <a href="#" class="container__trends-card-link">health</a>
+                        </li>
+                    </ul>
+                        <h3 class="container__trends-card-content"><a class="container__trends-card-content-link" href="#">Сейчас в тренде: сколько витамина с в лимонах?</a></h3>
                     </div>
                 </div>
             </div>
@@ -267,7 +287,7 @@
                                 class="new-posts__item-picture" alt="Человек идущий по пляжу на фоне солнца" width="70" height="70">
                         <div class="aside__container-content">
                             <span class="np__item-date">14 июня 2019</span>
-                            <a href="#0" class="np__item-link">10 мест, ради которых стоит проснуться</a>
+                            <h4><a href="#0" class="np__item-link">10 мест, ради которых стоит проснуться</a></h4>
                         </div>
                         </div>
     
@@ -276,7 +296,7 @@
                                 alt="Девушка занимается його на пляже" width="70" height="70">
                             <div class="aside__container-content">
                                 <span class="np__item-date">14 июня 2019</span>
-                                <a href="#0" class="np__item-link">Йога для домашних</a>
+                                <h4><a href="#0" class="np__item-link">Йога для домашних</a></h4>
                             </div>
                         </div>
                         <div class="new-posts__item">
@@ -284,7 +304,7 @@
                                 alt="Кресло на фоне которого пианино" width="70" height="70">
                             <div class="aside__container-content">
                                 <span class="np__item-date">14 июня 2019</span>
-                                <a href="#0" class="np__item-link">как мы превратили классное место в балкон</a>
+                                <h4><a href="#0" class="np__item-link">как мы превратили классное место в балкон</a></h4>
                             </div>
                         </div>
                         <div class="new-posts__item">
@@ -292,7 +312,7 @@
                                 alt="Стол на котором стоят 2 тарелки с едой и кастрюлька" width="70" height="70">
                             <div class="aside__container-content">
                                 <span class="np__item-date">14 июня 2019</span>
-                                <a href="#0" class="np__item-link">Кулинарный подход к науке</a>
+                                <h4><a href="#0" class="np__item-link">Кулинарный подход к науке</a></h4>
                             </div>
                         </div>
                         <div class="new-posts__item">
@@ -300,7 +320,7 @@
                                 alt="Девушки с длинными волосами стоят спиной" width="70" height="70">
                             <div class="aside__container-content" >
                                 <span class="np__item-date">14 июня 2019</span>
-                                <a href="#0" class="np__item-link">лучшие прически для распущенных волос</a>
+                                <h4><a href="#0" class="np__item-link">лучшие прически для распущенных волос</a></h4>
                             </div>
                         </div>
     
@@ -309,9 +329,10 @@
                 <div class="aside__search">
                     <form class="search">
                         <label class="search-group">
+                            <span class="visually-hidden">Поле ввода</span>
                             <input class="search-group__field" name="query" placeholder="Найти..." required>
                         </label>
-                        <button class="button"></button>
+                        <button class="button"><span class="visually-hidden">кнопка поиска</span></button>
                     </form>
                 </div>
                 <div class="aside__container-mailing">
@@ -346,17 +367,17 @@
                     <h3 class="list-topic__title">темы</h3>
                     <div>
                         <ul class="list-topic__links">
-                            <li><a href="#0" class="list-topic__item">Красота <span class="item__super-text">12</span></a>
+                            <li><a href="#0" class="list-topic__item">Красота</a><span class="item__super-text">12</span>
                             </li>
-                            <li><a href="#0" class="list-topic__item">Здоровье <span class="item__super-text">4</span></a>
+                            <li><a href="#0" class="list-topic__item">Здоровье </a><span class="item__super-text">4</span>
                             </li>
-                            <li><a href="#0" class="list-topic__item">Образ жизни <span
-                                        class="item__super-text">145</span></a></li>
-                            <li><a href="#0" class="list-topic__item">Музыка <span class="item__super-text">28</span></a>
+                            <li><a href="#0" class="list-topic__item">Образ жизни </a><span class="item__super-text">145</span></li>
+                            <li><a href="#0" class="list-topic__item">Музыка </a><span class="item__super-text">28</span>
                             </li>
-                            <li><a href="#0" class="list-topic__item">Спорт <span class="item__super-text">62</span></a>
+                            <li><a href="#0" class="list-topic__item">Спорт </a><span class="item__super-text">62</span>
                             </li>
-                            <li><a href="#0" class="list-topic__item">Йога <span class="item__super-text">8</span></a></li>
+                            <li><a href="#0" class="list-topic__item">Йога </a><span class="item__super-text">8</span>
+                            </li>
                         </ul>
                     </div>
                 </section>
@@ -371,8 +392,9 @@
                     <label for="popup_fb" class="popup__close-background"></label>
                     <div class="popup__content">
                         <label for="popup_fb" class="popup__close">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 441 441" class="popup__close-icon"><path  stroke="#000" d="M220.336 170.564l.353.353.354-.353L390.288 1.318l49.796 49.773-169.269 169.245-.353.354.353.354 169.269 169.245-49.796 49.796-169.245-169.269-.354-.353-.353.353-169.27 169.269-49.748-49.796 169.245-169.245.353-.354-.353-.354L1.318 51.067 51.09 1.318l169.246 169.246z"/></svg>
-                        </label>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 441 441" class="popup__close-icon"><path  stroke="#000" d="M220.336 170.564l.353.353.354-.353L390.288 1.318l49.796 49.773-169.269 169.245-.353.354.353.354 169.269 169.245-49.796 49.796-169.245-169.269-.354-.353-.353.353-169.27 169.269-49.748-49.796 169.245-169.245.353-.354-.353-.354L1.318 51.067 51.09 1.318l169.246 169.246z"/></svg>
+                                <span class="visually-hidden">закрыть окно</span>
+                        </label>    
                         <div class="form__popup">
                             <h2 class="form__popup-tittle">ваш фидбек</h2>
                             <label for="options" class="form__popup-option">Как часто вы заходите на сайт?</label>
@@ -495,15 +517,15 @@
         <div class="footer__container-links">
             <ul class="footer__links">
                 <li><a href="#0" class="footer__links-item-dribbble">
-                        <span class="footer__link-text-visually-hidden">dribbble</span>
+                        <span class="visually-hidden">dribbble</span>
                     </a>
                 </li>
                 <li><a href="#0" class="footer__links-item-pinterest">
-                        <span class="footer__link-text-visually-hidden">pinterest</span>
+                        <span class="visually-hidden">pinterest</span>
                     </a>
                 </li>
                 <li><a href="#0" class="footer__links-item-tumblr">
-                        <span class="footer__link-text-visually-hidden">tumblr</span>
+                        <span class="visually-hidden">tumblr</span>
                     </a>
                 </li>
             </ul>
