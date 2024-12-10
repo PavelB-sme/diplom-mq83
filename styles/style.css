@@ -446,7 +446,7 @@ a.item__tittle-link:hover {
    
 .button {
     position: absolute;
-    background-image: url(/svg/search.svg);
+    background-image: url(../svg/search.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20px 20px;
